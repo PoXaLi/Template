@@ -1,0 +1,152 @@
+body{
+    background: #454545;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title{
+    margin: auto;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.text{
+    align-items: center;
+    width: 650px;
+    margin: auto;
+    color: antiquewhite;
+    font-size: large;
+    text-align: justify;
+}
+.img1{
+    align-items: center;
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+    transition: 1s ease-in-out;
+    border-radius: 30px;
+}
+.img1 img{
+  border-radius: 30px;
+  width: 650px;
+}
+.img1:hover{
+  transform: scale(103%);
+  box-shadow: inset 0 0 2em 0 #e7e7e7, 0 0 2em 0 #e7e7e7;
+}
+.card {
+    width: 650px;
+    height: 254px;
+    border-radius: 4px;
+    background: #454545;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  
+  .card p {
+    height: 100%;
+    flex: 1;
+    cursor: auto;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #454545;
+    border: 2px solid #fdfdfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .card p:hover {
+    flex: 4;
+    background: #ffffff;
+    box-shadow: inset 0 0 2em 0 #ffffff, 0 0 2em 0 #ffffff;
+    border-radius: 20px;
+  }
+  
+  .card p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: .1em;
+  }
+  
+  .card p:hover span {
+    transform: rotate(0);
+    color: rgb(0, 0, 0);
+  }
+  .card1 {
+    width: 650px;
+    background-color: #d3d3d3;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    transition: 1s ease-in-out;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .body {
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .skill-name {
+    width: 120px;
+    font-size: 16px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .skill-level {
+    width: 160px;
+    height: 10px;
+    background-color: #454545;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .skill-percent {
+    background-color: #333;
+    height: 100%;
+  }
+  
+  .skill-percent-number {
+    margin-left: 20px;
+    font-size: 16px;
+    align-items: center;
+    margin: auto;
+  }
+  .card1:hover{
+    transform: scale(103%);
+  }
